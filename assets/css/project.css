@@ -31,8 +31,18 @@ grid-main-container{
 .button{
     all: unset;
     color: aliceblue;
+    border: solid blueviolet;
+    background-color: aqua;
 }
 
 .content-container{
     display: flex;
 }
+
+/* .hidden-content{
+    display: none;
+}
+
+.hidden-content.reveal-btn{
+    display: block;
+} */
