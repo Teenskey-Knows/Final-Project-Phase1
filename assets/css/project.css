@@ -1,0 +1,38 @@
+html{
+    margin:0 px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(245, 88, 16);
+}
+
+/* My Grid Content Layout */
+
+grid-main-container{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    gap: 0px 0px 100px 0px;
+}
+
+
+/* Putting a box border in my outer content */
+.boxing{
+    border: solid 0.5rem rgb(41, 0, 0);
+    height: auto;
+    width: 25%;
+    margin-bottom: 0.4rem;
+    padding: 5rem;
+    border-radius: 2rem;
+}
+
+
+.button{
+    all: unset;
+    color: aliceblue;
+}
+
+.content-container{
+    display: flex;
+}
